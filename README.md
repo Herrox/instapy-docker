@@ -23,6 +23,8 @@ docker run --name instapy \
   -v /absolute_path_to_file/InstaPy:/code/InstaPy \
   -d instapy/instapy
 ```
+We suggest to always use the above command to make sure you are running the latest version of InstaPy
+
 Example:
 ```
 docker pull instapy/instapy && \
@@ -54,6 +56,8 @@ docker run --name instapy \
   - [Some quickstart examples](https://github.com/InstaPy/instapy-quickstart/tree/master/quickstart_templates)
 * Start InstaPy container 
 <br>`docker-compose pull && docker-compose up -d --build web`
+
+We suggest to always use the above command to make sure you are running the latest version of InstaPy
 * Stop InstaPy container
 <br>`docker-compose stop web`
 * Stop and remove Docker configs
